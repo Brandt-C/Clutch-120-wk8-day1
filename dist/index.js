@@ -1,0 +1,23 @@
+"use strict";
+console.log('Hello world from from TS');
+let age = 45;
+console.log(age);
+let age2 = 54;
+let nyName = 'Brandt';
+let isPrime = true;
+let students;
+let fullName = (fname, lname) => {
+    console.log(`${fname} ${lname}`);
+};
+let numbers = [1, 2, 3];
+console.log(numbers);
+let stringsArr = ['a', 'string', 'array'];
+console.log(stringsArr);
+let numbers2 = [1, 2, 3];
+let stringy = ['yet', 'anotehr', 'string'];
+let multiArr;
+multiArr = [12, 'sdflkj', true, null];
+let dynamicArr = [true, 'string', 12, 234, 234, 'stringyagain', false];
+let nameAge = ['Brandt', 435];
+nameAge.push(13);
+console.log(nameAge);
